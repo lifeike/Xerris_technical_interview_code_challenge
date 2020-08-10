@@ -21,7 +21,7 @@ Disclaimer: The above codes are all written by me. No network information is ref
 ## commits
 1.2020-08-08: finish program
 
-2.2020-08-09: finish tests
+2.2020-08-09: finish tests and refactor and repeate
 
 3.2020-08-10: finish the Readme file for Xerris
 
