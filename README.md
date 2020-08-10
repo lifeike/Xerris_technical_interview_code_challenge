@@ -1,19 +1,31 @@
-# Xerris_technical_interview_code_challenge
+Xerris_technical_interview_code_challenge
 ---
-
-nice to have:
-
-ship object included into board object
-
-serilization
-
-remove setter avoid mutation
-
-flush the screen,clear the console.
+Author: Feeco
+Date: 2020-08-09
 
 
-todo
+## nice to have:
 
-add coverage report to it
-  
-add jar file to root directory
+1.object serialized to improve security
+
+2.remove setters to avoid mutation and improve security 
+
+3.clearing the console screen after each user input would be better simulation of real game scenario. 
+
+
+## commits
+1. 2020-08-08: finish program
+
+2. 2020-08-09: finish tests
+
+3. 2020-08-10: finish the Readme file for viewer
+
+## program usage
+
+### run
+java -jar Xerris_technical_interview_code_challenge
+
+### game rules
+1. first round place the ship. if two ships choose the same initial position. game restart out of fairness.
+
+
