@@ -51,9 +51,22 @@ public class Judgement {
             int playerCode = 1;
             System.out.println("player " + playerCode + " fire your arm.");
             System.out.println("row number");
+
+            //check hit in the ocean
             int player1Row = scanner.nextInt() - 1;
+            while(1>player1Row || player1Row>8){
+                System.out.println("please choose 1-8 position in the ocean");
+                player1Row=scanner.nextInt()-1;
+            }
+
             System.out.println("column number");
+
+            //check hit in the ocean
             int player1Column = scanner.nextInt() - 1;
+            while(1>player1Column || player1Column>8){
+                System.out.println("please choose 1-8 position in the ocean");
+                player1Column=scanner.nextInt()-1;
+            }
 
             //check if taken
             Judgement play1Judgement = new Judgement();
@@ -84,9 +97,20 @@ public class Judgement {
             playerCode++;
             System.out.println("player " + playerCode + " fire your arm.");
             System.out.println("row number");
+
+            //check if hit in the ocean
             int player2Row = scanner.nextInt() - 1;
+            while(1>player2Row || player2Row>8){
+                System.out.println("please choose 1-8 position in the ocean");
+                player2Row=scanner.nextInt()-1;
+            }
+
             System.out.println("column number");
             int player2Column = scanner.nextInt() - 1;
+            while(1>player2Column || player2Column>8){
+                System.out.println("please choose 1-8 position in the ocean");
+                player2Row=scanner.nextInt()-1;
+            }
 
             //check if taken
             Judgement player2Judgement = new Judgement();

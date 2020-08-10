@@ -70,9 +70,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int row, column, direction;
-        System.out.print("please enter your initial row coordinator ");
+        System.out.print("please enter your initial row coordinator (1-8) ");
         row = scanner.nextInt() - 1;
-        System.out.print("please enter your initial column coordinator ");
+        System.out.print("please enter your initial column coordinator (1-8) ");
         column = scanner.nextInt() - 1;
         System.out.print("please choose direction: 1.vertical  2.horizontal ");
         direction = scanner.nextInt();

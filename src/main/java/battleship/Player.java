@@ -31,6 +31,7 @@ public class Player {
             temp[row][column + 2] = "x";
         } else {
             System.out.println("Wrong direction.");
+            System.out.println(0);
         }
 
         ship.setShip(temp);
