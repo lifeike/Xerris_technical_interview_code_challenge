@@ -1,7 +1,9 @@
 Xerris_technical_interview_code_challenge
 ---
 Author: Feeco
+
 Date: 2020-08-09
+
 Disclaimer: The above codes are all written by me. No network information is referenced.
 
 ## nice to have:
@@ -39,8 +41,15 @@ java -jar Xerris_technical_interview_code_challenge
 
 5.each turn, player enter the position of hit. The taken positions will be ignored including own ship and position hit before.
 
-6.hit position must be in the ocean(1-8), if not, re-enter.
+6.hit position must be in the ocean(8x8), if not, re-enter.
+
+7.three hits win. quit the game.
 
 ## coverage report
 
 All objects and methods are tested except printing method and game menu.
+
+## tools
+IDE: intellij
+Automated System: Maven
+unit test: Junit
