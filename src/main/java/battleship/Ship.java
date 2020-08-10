@@ -10,6 +10,12 @@ public class Ship {
 
     String[][] ship = new String[8][8];
 
+    public Ship(){}
+
+    public Ship(String[][] ship) {
+        this.ship = ship;
+    }
+
     public String[][] getShip() {
         return ship;
     }

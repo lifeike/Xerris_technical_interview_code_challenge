@@ -5,11 +5,17 @@ package battleship;
  * Title: Xerris battleship assessment
  * Date: 2020-08-09
  * */
-
 public class Player {
 
     Board board = new Board();
     Ship ship = new Ship();
+
+    public Player(){}
+
+    public Player(Board board, Ship ship) {
+        this.board = board;
+        this.ship = ship;
+    }
 
     public void createShip(int row, int column, int direction) {
         String[][] temp = new String[8][8];
@@ -39,6 +45,7 @@ public class Player {
             System.out.print((i + 1) + " ");
             for (int j = 0; j < 8; j++) {
                 if (temp[i][j] == null) {
+                    //display ocean wave when empty
                     System.out.print("~ ");
                 } else {
                     System.out.print("x ");

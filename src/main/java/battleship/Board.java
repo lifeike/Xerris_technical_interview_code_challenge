@@ -10,6 +10,12 @@ public class Board {
 
     String[][] board = new String[8][8];
 
+    public Board(){}
+
+    public Board(String[][] board) {
+        this.board = board;
+    }
+
     public String[][] getBoard() {
         return board;
     }
