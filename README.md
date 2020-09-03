@@ -51,5 +51,35 @@ All objects and methods are tested except printing method and game menu.
 
 ## tools
 IDE: intellij
+
 Automated System: Maven
+
 unit test: Junit
+
+## reqirements
+
+#### Background
+- Purpose of this exercise is to get a sense of how you code.
+- Use whatever language or framework you feel most comfortable with.
+
+#### Game Requirements
+- Two Players.
+- Two Boards (one for each player).
+- 1 Ship (length of 3) – can be vertical or horizontally placed.
+- Fire a single shot per turn (Hit, Miss, or if ship has been Sunk (3 hits) then register a “you sunk my battleship”).
+- First round should allow placement of Ship for each player.
+- Game ends when the player sinks the other player’s ship.
+
+#### What We Are Looking for
+- Good object design and component breakdown.
+- 80% automated unit test code coverage.
+- Automated build system of choice (maven, Node.js, PowerShell, etc.).
+- Runs from the command line
+
+#### Additional Information
+- Should take 2-3 days to complete.
+- Should be a console application.
+- Should be built/designed using test driven development.
+- Language of choice.
+- No database backend required.
+- No user interface is needed.
